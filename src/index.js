@@ -5,4 +5,4 @@ import App from './App';
 import FEATURES from './FEATURES';
 
 ReactDOM.render(<App features={FEATURES}/>, document.getElementById('root'));
-© 2020 GitHub, Inc.
+
