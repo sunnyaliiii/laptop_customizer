@@ -4,7 +4,7 @@ import ItemOption from './ItemOption'
 export default function FeatureItem(props) {
   const { features, selected, featureTitle, handleUpdate } = props;
   
-  const options = features[featureTitle].map((item, index) =>
+  const options = features.map((item, index) =>
     <ItemOption
       key={index}
       item={item}
